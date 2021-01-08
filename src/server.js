@@ -13,6 +13,7 @@ const users = [];
 
 // Setting up of port 
 const port = process.env.PORT || 3000;
+app.use(express.static(path.join(__dirname, 'public')));
 
 /////////////////////// IMPLEMENT BELOW STEPS //////////////////////
 
